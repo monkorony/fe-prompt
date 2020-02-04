@@ -36,3 +36,170 @@
     transform: rotate(360deg);
   }
 }
+
+.titleLabel {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.descLabel {
+  color: #adadad;
+  margin: 0;
+  line-height: 2rem;
+  margin-left: 20px;
+}
+.blBtn.MuiButton-containedPrimary {
+  background-color: #4bb5e0;
+}
+.grBtn.MuiButton-containedPrimary {
+  background-color: #59ce8e;
+  margin-right: 15px;
+}
+.grBtn.MuiButton-containedPrimary:hover {
+  background-color: #4bb5e0;
+}
+.outlineBtn.MuiButton-containedPrimary {
+  background: transparent;
+  border: 1px solid #ccc;
+  box-shadow: none;
+  color: #ccc;
+}
+.outlineBtn.MuiButton-containedPrimary:hover {
+  background-color: #4bb5e0;
+  border: 1px solid #4bb5e0;
+  box-shadow: none;
+  color: #fff;
+}
+.titleWrap .blBtn {
+  margin-right: 15px;
+}
+.MuiButton-containedPrimary.outlineBtn {
+  background-color: transparent;
+  color: #282c34;
+}
+.chartContainer {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+}
+.chartWrap {
+  padding: 40px 30px;
+}
+.gearSettings {
+  position: fixed;
+  z-index: 2000;
+  right: 0;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 15%;
+  border: 1px solid #f2f2f2;
+  color: #4bb5e0;
+}
+.listWrap .MuiListItemIcon-root,
+.listWrap div {
+  color: #fff;
+}
+.listWrap .MuiListItem-root.Mui-selected.active {
+  color: #00a8f9;
+  background: white;
+}
+.listWrap .MuiTypography-body1 {
+  font-size: 0.9rem;
+}
+.listWrap .active .MuiListItemIcon-root,
+.listWrap .active .MuiListItemText-root {
+  color: #4bb5e0;
+}
+.yelIcon {
+  color: yellow;
+}
+.rdIcon {
+  color: red;
+}
+.prpIcon {
+  color: purple;
+}
+
+.dateWrap .makeStyles-formControl-273 {
+  min-width: 400px;
+}
+.dateWrap .MuiFormLabel-root {
+  color: #fff;
+}
+.dateWrap .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  color: #2a333e;
+  display: none;
+}
+.dateWrap .MuiOutlinedInput-notchedOutline {
+  border: 0;
+}
+.dateWrap .MuiSelect-outlined.MuiSelect-outlined {
+  background-color: #4bb5e0;
+  color: #fff;
+  border-radius: 4px;
+}
+.dateWrap .dateWrap .MuiOutlinedInput-notchedOutline {
+  border: 0;
+}
+.rangeWrap .MuiInputBase-formControl {
+  min-width: 200px;
+}
+.rangeWrap .MuiFormLabel-root {
+  transform: none;
+  padding: 11px 16px;
+}
+.rangeWrap .MuiSelect-outlined.MuiSelect-outlined {
+  padding: 9px 16px;
+  font-size: 0.875rem;
+}
+.dateWrap .MuiSelect-iconOutlined,
+.rangeWrap .MuiSelect-iconOutlined {
+  color: #fff;
+}
+.rangeWrap .makeStyles-formControl-427 {
+  margin: 0;
+}
+.statsChart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+}
+.statsChart p {
+  margin: 0;
+}
+.statsChart .numLabel {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.dotChart .recharts-responsive-container {
+  height: 80% !important;
+}
+@media (min-width: 1280px) {
+  .makeStyles-statsContain-24 {
+    border-right: 1px solid #ccc;
+  }
+  .makeStyles-statMContain-30
+    .MuiGrid-item:last-child
+    .makeStyles-statsContain-24 {
+    border-right: 0;
+  }
+  .titleWrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .titleWrap div {
+    display: flex;
+    align-items: flex-end;
+  }
+}
